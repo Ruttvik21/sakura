@@ -1,0 +1,117 @@
+@media only screen and (min-width: 768px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: url(Images/Sakura.jpg);
+        background-size: cover;
+        height: fit-content;
+        background-repeat: no-repeat;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px;
+    }
+
+    nav a{
+        padding: 5px;
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+    }
+    #title{
+        margin-left: auto;
+    }
+
+    h1 a{
+        text-decoration: none;
+        color: rgb(255, 16, 56);
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    .eng{
+        width: 500px;
+        position: absolute;
+        top: 60px;
+        padding: 50px;
+        line-height: 30px;
+        font-size: large;
+    }
+
+    .jap{
+        width: 500px;
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        padding: 50px;
+        /* margin-left: 60%; */
+        line-height: 30px;
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body{
+        background-image: url(Images/Sakura.jpg);
+        background-position: center;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    nav a{
+        padding: 5px 10px;
+        color: black;
+        text-decoration: none;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h1 a{
+        text-decoration: none;
+        color: rgb(255, 16, 56);
+    }
+    
+    header{
+        margin-bottom: 20px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-weight: normal;
+    }
+
+    .eng{
+        margin-bottom: 60px;
+        padding: 20px;
+    }
+
+    .jap{
+        padding: 20px;
+    }
+
+    #english{
+        line-height: 30px;
+    }
+
+    #japanese{
+        line-height: 30px;
+    }
+
+}
